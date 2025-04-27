@@ -5,6 +5,7 @@
   "homepage": "https://RyanEngelken.github.io/RE-M05-React",
   "type": "module",
   "scripts": {
+    "start": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
