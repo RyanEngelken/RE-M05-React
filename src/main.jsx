@@ -1,10 +1,10 @@
-import BrowserRouter from 'react-router-dom'
+import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 
 // const [firstAnimal, second, third] = ["giraffe", "zebra", "bear"]
 // console.log(firstAnimal)
 
-<BrowserRouter basename="/RE-M05-React">    
+createRoot(document.getElementById('root')).render(
     <App />
-</BrowserRouter>
+)
